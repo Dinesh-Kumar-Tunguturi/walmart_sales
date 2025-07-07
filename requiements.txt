@@ -1,0 +1,26 @@
+at first download kaggle api(prfile api of kaggle account)
+
+create virtual environment for folder that is:
+py -m venv env
+
+activate vurtual environment
+.\env\Scripts\activate
+
+now install kaggle from terminal using pip command
+pip install kaggle
+
+download dataset from kaggle
+kaggle datasets download -d najir0123/walmart-10k-sales-datasets
+
+it will download some zip 
+unzip the data by using
+Expand-Archive -Path walmart-10k-sales-datasets.zip .
+
+install pandas
+pip install pandas
+
+for MySql operations we need:
+import pymysql
+from sqlalchemy import create_engine
+
+
